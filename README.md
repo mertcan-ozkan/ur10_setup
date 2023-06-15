@@ -42,7 +42,7 @@
 - There is also a stop button at the bottom of the program section to stop the robot. Make sure that you are not using the robot at full speed! At the program section, there is also a slider that controls the speed. You can lower that when you are running your script. Always use the robot at low speeds if you are new to UR10.
 - You can also try to use the gamepad_controller file to move the robot using a gamepad. Make sure none of the buttons are being pressed, some of the buttons might be jammed! You can check this file to understand how you can control the robot using cartesian coordinates. 
 - Lastly, there is a big red button on the controller, you can press it any time to stop the robot instantly.
-- When you are done with the robot, first press the stop button. Then click the "move" button.
+- When you are done with the robot, first press the stop button. Then click the "move" section.
 - <img src="https://github.com/mertcan-ozkan/ur10_setup/assets/74208991/16261e2f-72d0-4a5a-af6b-3c62b62c55f0" width="250">
 - This page helps you to move the robot. We will use it to move to robot to its initial position. Click home.
 - <img src="https://github.com/mertcan-ozkan/ur10_setup/assets/74208991/143467fa-6a0f-48d6-a434-c56c7ff92feb" width="250">
