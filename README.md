@@ -17,7 +17,28 @@
 - After downloading these, you may need to remove the file "devel" from catkin_ws and run ```catkin build```.
 - Also you need to install libraries such as Numpy and Scipy. ıf you see an error like "Rotation cannot be expressed as matrix" check your Scipy version.
 ### Running the Script
-- 
+- first, connect the ethernet cable to your computer.
+- now, you should be able to control the robot!
+
+### Controller Settings
+- <img src="https://github.com/mertcan-ozkan/ur10_setup/assets/74208991/fefb2f5c-cb42-427b-a20d-c7e0fbebe481" width="250">
+- Here, click "program the robot"
+- <img src="https://github.com/mertcan-ozkan/ur10_setup/assets/74208991/fa040d3a-7588-4d67-827b-b6513a80d488" width="250">
+-  select load program
+-  <img src="https://github.com/mertcan-ozkan/ur10_setup/assets/74208991/4fa95cac-9f5f-4848-b318-d1e9acbfac6b" width="250">
+- select ros_driver.urp
+- now you should give your computers ip to the robot. go to installation - external control. Change the host ıp part. You can the ```ifconfig``` command to see your ip. Also you will need the robots ip too. You can check the robots ip by clicking the "UR" symbol on top left.
+- <img src="https://github.com/mertcan-ozkan/ur10_setup/assets/74208991/e6082ef2-543f-43d7-bfb8-5c9efa1e0c4c" width="250">
+- now go to 'program' section, you will see the play button at the buttom. Click that. Now you should see the screen below:
+- <img src="https://github.com/mertcan-ozkan/ur10_setup/assets/74208991/03fe8d37-4b37-4db2-af0c-603ea2fbbe0f" width="250">
+- click the button that says start two times. Then click OK. Now you should be back at the program section.
+- Now, pressing the start button at the button of the "program" section will start the robot. There is also a stop button there to stop the robot. Make sure that you are not using the robot at full speed! At the program section, there is also a slider that controls the speed. You can lower that when you are running your script.
+- After you are done, first press the stop button. Then click "move" above.
+- <img src="https://github.com/mertcan-ozkan/ur10_setup/assets/74208991/16261e2f-72d0-4a5a-af6b-3c62b62c55f0" width="250">
+- This page helps you to move the robot. We will use it to move to robot to its inital position. Click home.
+- <img src="https://github.com/mertcan-ozkan/ur10_setup/assets/74208991/143467fa-6a0f-48d6-a434-c56c7ff92feb" width="250">
+- Here click auto to move the robot to its initial position. Always move the robot to its initial position before closing the controller.
+- After that, click file to and close the program to go to the initial screen. Then you can close the controller using the button on the controller.
 
 
 
